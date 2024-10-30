@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Irantzu Barrio Beraza</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./aboutme.html">About me</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Publications
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="./publications1.html">Recent Publications</a>
+    </li>
+    <li>
+      <a href="./supervisedPhD.html">Supervised PhD</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="./projects.html">Projects</a>
+</li>
+<li>
+  <a href="./dissemination.html">Dissemination</a>
+</li>
+<li>
+  <a href="./contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/githubusername/mywebsite">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+
+<div id="section" class="section level2">
+<h2>2024</h2>
+<p>Iparragirre A, <u>Barrio I</u>, Aramendi J and Arostegui I. (2024)
+<span style="color: purple;">Estimation of logistic regression
+parameters for complex survey data: simulation study based on real
+survey data</span>. <em>SORT</em> 48 (1): 67-92. <a
+href="https://raco.cat/index.php/SORT/article/view/428541/523132"><img
+src="images/paper.png" alt="Alt text for broken image link" /></a></p>
+<p>Garrido P. F., De los Santos Castillo-Peinado L, Priego-Capote F,
+<u>Barrio I</u>;Piñeiro Á. , Domínguez-Santalla M. J. , Rodríguez-Ruiz
+E. , Garcia Fandino R. (2024) <span style="color: purple;">Lipidomics
+signature in post-COVID patient sera and its influence on the prolonged
+inflammatory response</span>. <em>Journal of Infection and Public
+Health</em> 17(4): 588-600. <a
+href="https://doi.org/10.1016/j.jiph.2024.01.017"><img
+src="images/paper.png" alt="Alt text for broken image link" /></a></p>
+<p>Quintana JM, Rodríguez L, Portuondo J, García J, Legarreta MJ, Gascon
+M, Larrea N, <u>Barrio I</u>, the COVID-Health Basque Country Research
+Group. (2024) <span style="color: purple;">Relevance of comorbidities
+for main outcomes during different periods of the COVID-19
+pandemic</span>. <em>Influenza and Other Respiratory Diseases</em>.
+18:e13240. <a href="https://doi.org/10.1111/irv.13240"><img
+src="images/paper.png" alt="Alt text for broken image link" /></a></p>
+<!-- ## 2023 -->
+<!-- Iparragirre A, \underline{Barrio I}, Arostegui I. (2023) Estimation of the ROC curve and the area under it with complex survey data. \textsl{Stat}.12:e635. DOI: \href{ https://doi.org/10.1002/sta4.635}{10.1002/sta4.635}.\\  -->
+<!-- ISSN: 2049-1573 \\ -->
+<!-- JCR IF (2022): 0.8 (Cuartil mayor: Q4) \\ -->
+<!-- SJR IF (2022): 0.454 (cuartil mayor: Q3) \\ -->
+<!-- \item Iparragirre A, Lumley T,  \underline{Barrio I} and Arostegui I. (2023) Variable selection with LASSO regression for complex survey data. \textsl{STAT} 12:e578. DOI: \href{ https://doi.org/10.1002/sta4.578}{10.1002/sta4.578}.     \\ -->
+<!-- ISSN: 2049-1573 \\ -->
+<!-- JCR IF (2022):  0.8 (Cuartil mayor: Q4) \\ -->
+<!-- SJR IF (2022): 0.454 (cuartil mayor: Q3) \\ -->
+<!-- \item Portuondo-Jimenez J, \underline{Barrio I}, España PP,  García J, Legarreta MJ,  Villanueva A,  Gascón M,  Rodríguez L,  Larrea N,  García-Gutierrez S,  Quintana-Lopez JM and the COVID-Health Basque Country Research Group.(2023) Clinical prediction rules for adverse outcomes in patients with SARS COV-2 infection by the Omicron variant. \textsl{International Journal of Medical Informatics} 173, 105039. DOI: \href{https://doi.org/10.1016/j.ijmedinf.2023.105039}{10.1016/j.ijmedinf.2023.105039}\\ -->
+<!-- ISSN: 1872-8243, 1386-5056 \\ -->
+<!-- JCR IF (2022): 4.9 (Cuartil mayor: Q1) \\ -->
+<!-- SJR IF (2022): 1.197 (Cuartil mayor: Q1) \\ -->
+<!-- \item Orive M, \underline{Barrio I}, Lazaro S,  Gonzalez N, Bare M, Fernández de Larrea N, Redondo M, Cortajarena S, Bilbao A, Aguirre A, Sarasqueta C, Quintana J.M, The REDISSEC-CARESS/CCR Group. (2023) Five-year follow-up mortality prognostic index for colorectal patients. \textsl{International Journal of Colorectal Disease} 38(1): 64.. DOI: \href{https://link.springer.com/article/10.1007/s00384-023-04358-0}{10.1007/s00384-023-04358-0} \\ -->
+<!-- ISSN: 1432-1262, 0179-1958.\\ -->
+<!-- JCR IF (2022): 2.8 (Cuartil mayor:Q2)\\ -->
+<!-- SJR (2022): 0.813 (Cuartil mayor:Q2).\\     -->
+<!-- \item Ibañez-Solé O,  \underline{Barrio I} and Izeta A. (2023) Age or lifestyle-induced accumulation of genotoxicity is associated with a length-dependent decrease in gene expression. \textsl{iScience} 26(4):106368. DOI: \href{https://www.sciencedirect.com/science/article/pii/S2589004223004455?via%3Dihub}{10.1016/j.isci.2023.106368}  -->
+<!-- ISSN: 2589-0042.\\ -->
+<!-- %Multidisciplinary -->
+<!-- JCR IF (2022): 5.8 (Cuartil mayor:Q1)\\ -->
+<!-- SJR (2022): 1.624 (Cuartil mayor:Q1).\\     -->
+<!-- ## 2022 -->
+<!-- ## Other -->
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
